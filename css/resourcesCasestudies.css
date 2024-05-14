@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+    background-color: #f8f8f8;
+}
+
+.re-container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color:#0b385f;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 180px;
+    width: 80%;
+    display: inline;
+    color:#afe2fd
+
+}
+
+.search-form {
+    margin-left: 90%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.search-form button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Search-container{
+    text-align: right;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2{
+    color:rgb(9, 40, 93);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #666;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.book-list, .journal-list, .case-study-list, .report-list {
+    font-style: italic;
+}

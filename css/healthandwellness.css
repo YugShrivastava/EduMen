@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.mw-container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color:#0b385f;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 180px;
+    width: 80%;
+    display: inline;
+    color:#afe2fd
+
+}
+
+.search-form {
+    margin-left: 90%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.search-form button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Search-container{
+    text-align: right;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-color: #00bcd4;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    background-image: url(https://i.pinimg.com/564x/20/5b/c5/205bc5f4fce52eb6b68ccfb4dc67ff77.jpg) ;
+    background-size: cover;
+    background-position: 20%-bottom;
+    font-size: 20px;
+}
+main {
+    padding: 20px;
+    background-color:#579abb;
+}
+
+.banner {
+   
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: #0b385f;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.content h2 {
+    color: #333;
+}
+
+.content p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.tips {
+    background-color: #579abb;
+    padding: 50px;
+}
+
+.tips h2 {
+    color: #333;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tips ul {
+    padding: 0;
+}
+
+.tips ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

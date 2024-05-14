@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Screening</title>
+    <link rel="stylesheet" href="./css/pages/quiz_styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="q-container">
+            <h1>EduMen</h1>
+            <div class="Search-container">
+                <form class="search-form" action="#" method="get">
+                    <input type="text" name="search" placeholder="Search...">
+                    <button type="submit">Go</button>
+                </form>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./pages/mental_health.html">Mental Health</a></li>
+                    <li><a href="./pages/mental_wellness.html">Emotional Wellness</a></li>
+                    <li><a href="./pages/therapy.html">Therapy and Strategies</a></li>
+                    <li><a href="./pages/quiz.html">Quiz</a></li>
+                    <li><a href="./pages/resources.html">Resource and Study Material</a></li>
+                    <li><a href="./pages/aboutus.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="quiz-container" id="start-container">
+        <h2>Choose Your Test</h2>
+        <div id="test-options">
+            <button id="phq9Btn">PHQ-9 (Depression)</button>
+            <button id="gad7Btn">GAD-7 (Anxiety)</button>
+            <button id="auditBtn">AUDIT (Alcohol Use Disorder Identification Test)</button>
+            <button id="cageAidBtn">CAGE-AID (Substance Abuse Screening Test)</button>
+            <button id="miniBtn">MINI (Mini International Neuropsychiatric Interview)</button>
+            <button id="gad2Btn">GAD-2 (Generalized Anxiety Disorder-2)</button>
+            <button id="phq2Btn">PHQ-2 (Depression)</button>
+        </div>
+    </div>
+
+    <div class="quiz-container" id="quiz-container" style="display: none;">
+        <h1>Quiz</h1>
+        <div id="question"></div>
+        <div id="choices"></div>
+        <button id="nextBtn">Next</button>
+        <button id="submitBtn" style="display: none;">Submit</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="./js/quiz_script.js"></script>
+</body>
+
+</html>
