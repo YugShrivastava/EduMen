@@ -9,8 +9,12 @@ body {
     margin: 0 auto;
     background-position: auto;
 }
-
+.container{
+    padding-bottom: 15px;
+}
 header {
+    display: flex;
+    flex-direction: column;
     background-color:#1b4c78;
     color: #fff;
     padding: 20px 0;
@@ -25,16 +29,13 @@ header h1 {
     font-size: 250%;
     font-style: bold;
     font-weight: 2500;
- 
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 .search-form {
-    margin-left: 90%;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 .search-form input[type="text"] {
@@ -155,5 +156,12 @@ main h2{
     
     .text-content {
         padding: 20px 0;
-        text-align: center;}
+        text-align: center;}
+}
+.lowerheader{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
